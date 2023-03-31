@@ -1,0 +1,39 @@
+html{
+    background-color: #3b1f3a;
+}
+
+html{
+    color: white;
+}
+
+
+
+img{
+    width: 300px;
+    height: auto;
+}
+
+p{
+    margin: 10em;
+}
+
+.header{
+    display: flex;
+}
+
+nav {
+    list-style: none;
+    text-align: center;
+    margin-left: 4cm;
+}
+
+li{
+    display: inline;
+    margin: 4em;
+    font-size: large;
+}
+
+.chef{
+    text-align: center;
+    margin-top: 3cm;
+}
