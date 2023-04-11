@@ -8,32 +8,177 @@ html{
 
 
 
-img{
-    width: 300px;
+.chef img{
+    width: 500px;
     height: auto;
 }
 
-p{
-    margin: 10em;
+.moodhead img{
+    width: 300px;
 }
 
-.header{
+
+
+/*.header{
     display: flex;
 }
-
+*/
 nav {
     list-style: none;
     text-align: center;
-    margin-left: 4cm;
+ 
 }
 
 li{
     display: inline;
-    margin: 4em;
+    color: white;
     font-size: large;
+}
+
+ul{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
 
 .chef{
     text-align: center;
-    margin-top: 3cm;
+
+}
+
+ul{
+    flex-direction: column;
+    color: white;
+}
+
+i{
+    margin: 20px;
+}
+
+.photoanddots{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1cm;
+}
+
+    .chef img{
+        width: 250px;
+    }
+
+   .container{
+        display: flex;
+       flex-direction: column;
+       align-items: center;
+    }
+
+    /*gave it a flexbox to help with the navigation bar*/
+
+    p{
+        margin: 2em;
+    }
+
+
+
+
+@media screen and (min-width: 480px){
+.container{
+   display: flex;
+   flex-direction: row;
+
+
+
+}
+ul{
+    flex-direction: row;
+    color: white;
+}
+
+li{
+    margin: 1cm;
+}
+
+i{
+    margin: 1cm;
+    font-size: 20px;
+}
+
+.middle{
+align-self: auto;
+margin-top: 2cm;
+}
+
+.photoanddots{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1cm;
+}
+
+.chef img{
+    width: 500px;
+    height: auto;
+}
+
+.moodhead img{
+    width: 300px;
+}
+
+p{
+    font-size: 25px;
+}
+
+}
+
+
+
+
+
+
+
+
+/*Index*/
+
+.chocolatecakepop img{
+    width: 150px;
+}
+
+.green img{
+    width: 150px;
+}
+
+
+.pink img{
+    width: 150px;
+}
+
+.menuitems{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    .menu{
+        font-size: 40px;
+        text-align: center;
+    }
+
+
+
+
+/*About Us*/
+
+.katie {
+    width: 300px;
+}
+
+.about{
+    font-size: 40px;
+    text-align: center;
+}
+
+h2{
+font-size: small;
 }
